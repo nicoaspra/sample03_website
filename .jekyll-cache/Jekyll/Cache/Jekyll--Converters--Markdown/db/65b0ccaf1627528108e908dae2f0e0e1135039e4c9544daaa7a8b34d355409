@@ -1,14 +1,14 @@
-I"ù	<p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
+I"ç	<p>Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
+de obside ut laniavit arbor palmis, $cum$ quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.</p>
 
 <h2 id="ne-verba-patulosque-numen-vix-libet">Ne verba patulosque numen vix libet</h2>
 
-<p>[\begin{align<em>}
-    v &amp;= asdasd <br />
-    asd &amp;= \frac12 \cdot \frac{2x^2}{5x^3-2x} <br />
+\[\begin{align*}
+    v &amp;= asdasd \\
+    asd &amp;= \frac12 \cdot \frac{2x^2}{5x^3-2x} \\
     \int_1^5 &amp;= asdasd
-\end{align</em>}]</p>
+\end{align*}\]
 
 <p>Agitabitur signa lympha; <strong>non lacunae</strong> mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens <em>ferro nocere haud</em>, et Dulichium tui

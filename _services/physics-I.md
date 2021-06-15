@@ -7,11 +7,11 @@ layout: course
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
+de obside ut laniavit arbor palmis, $2x^2$ quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
 ## Ne verba patulosque numen vix libet
-
+asdasd
 
 $$
 \begin{align*}
