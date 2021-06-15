@@ -1,9 +1,0 @@
-I"T<h1 id="all-courses">All Courses</h1>
-
-<p>Aliquam erat volutpat. Morbi nisl tortor, dignissim eget efficitur vel, auctor non felis. Fusce quis viverra mi. Aenean quis massa pretium, ullamcorper nisi eget, hendrerit odio.</p>
-
-<p>{include collapse.html
-    title = “This is my title”
-    description = “This is my description”
-}</p>
-:ET
