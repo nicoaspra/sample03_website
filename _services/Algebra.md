@@ -25,6 +25,11 @@ remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
 Presserat [transitque inde](#diversa-iam-inter). Vel montes tum cohors Tityos
 lassavit nihil oracula exiguo ligatis.
 
+```latex
+    \begin{align}
+        asdasd
+        asd
+```
 
 <details>
   <summary>Answer</summary>

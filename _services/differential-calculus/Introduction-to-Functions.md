@@ -16,4 +16,24 @@ A function is a special relationship between an input and an output, where the v
 Relating this to an equation, for example $$y=2x+1$$. The variable $$x$$ is our apple (input), $$y$$ is the apple juice (output) and $$2x+1$$ is the juicer (function). The function tells us what to do to our input in order to end up with the resulting output.
 
 
+
+
+
+{% capture summary %}
+Answer
+{% endcapture %}
+{% capture details %}
+Hello
+{% endcapture %}
+{% include details.html %}
+
+
+asdasd
+
+
+
+
+
+
+
 {% include youtube.html id='cRsqjy-qqag' %}
