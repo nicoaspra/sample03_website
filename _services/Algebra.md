@@ -3,7 +3,7 @@ title: Algebra
 date: 2020-01-01
 featured: true
 weight: 1
-layout: service
+layout: course
 ---
 
 Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
@@ -14,6 +14,11 @@ laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto
 duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat
 Coroneus est qui viscere barbariam **seris**. Vim in quamquam colla ventura
 remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
+
+
+
+{% include youtube.html id='QH2-TGUlwu4' %}
+
 
 ## Inter pectore totidem
 

@@ -3,7 +3,7 @@ title: "Mechanics"
 date: 2020-07-01
 featured: true
 weight: 1
-layout: service
+layout: course
 ---
 
 Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,

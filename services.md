@@ -1,6 +1,6 @@
 ---
-title: Services
-layout: services
+title: Courses
+layout: courses
 intro_image: "images/illustrations/reading.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false

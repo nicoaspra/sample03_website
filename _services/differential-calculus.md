@@ -4,7 +4,7 @@ author: Nico O. Aspra
 date: 2020-03-01
 featured: true
 weight: 1
-layout: service
+layout: course
 ---
 
 # Functions

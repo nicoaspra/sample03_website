@@ -3,7 +3,7 @@ title: "Physics II"
 date: 2020-06-01
 featured: true
 weight: 1
-layout: service
+layout: course
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum

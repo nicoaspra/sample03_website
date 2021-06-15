@@ -3,7 +3,7 @@ title: "Analytic Geometry"
 date: 2020-02-01
 featured: true
 weight: 1
-layout: service
+layout: course
 ---
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
