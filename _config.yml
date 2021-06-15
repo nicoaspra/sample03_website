@@ -1,8 +1,8 @@
 baseurl: '/'
 permalink: pretty
 title: 'Jekyll Serif'
-url: https://nicoaspra.github.io
-baseurl: /sample03_website
+# url: https://nicoaspra.github.io
+# baseurl: /sample03_website/
 
 google_analytics_id: ""
 
