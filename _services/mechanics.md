@@ -2,7 +2,7 @@
 title: "Mechanics"
 date: 2020-07-01
 featured: true
-weight: 6
+weight: 1
 layout: service
 ---
 

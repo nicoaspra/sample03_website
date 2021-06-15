@@ -1,8 +1,8 @@
 ---
-title: "Algebra"
+title: Algebra
 date: 2020-01-01
 featured: true
-weight: 2
+weight: 1
 layout: service
 ---
 
@@ -59,3 +59,5 @@ habenas, ne dici Canenti.
 
 Non sensu est fecerat his rerum insignia verba, aeno nubila curvi. Tutus sibi
 isset; nec non ille vero abstulit, ite est. Digitoque ora ego aethera, comas?
+
+

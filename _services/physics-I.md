@@ -2,7 +2,7 @@
 title: "Physics I"
 date: 2020-05-01
 featured: true
-weight: 4
+weight: 1
 layout: service
 ---
 
@@ -11,6 +11,16 @@ de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
 crimen habet Priamum nec.
 
 ## Ne verba patulosque numen vix libet
+
+
+$$
+\begin{align*}
+    v &= asdasd \\
+    asd &= \frac12 \cdot \frac{2x^2}{5x^3-2x} \\
+    \int_1^5 &= asdasd
+\end{align*}
+$$
+
 
 Agitabitur signa lympha; **non lacunae** mox cum tumulis quoque triste dictis.
 Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui

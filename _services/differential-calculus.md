@@ -1,5 +1,6 @@
 ---
 title: "Differential Calculus"
+author: Nico O. Aspra
 date: 2020-03-01
 featured: true
 weight: 1
@@ -8,6 +9,7 @@ layout: service
 
 # Functions
 - [Introduction to Functions](Introduction-to-Functions)
+  - Exercises - Introduction to Functions
 - Function Notation
 - Combining Functions
 
