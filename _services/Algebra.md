@@ -25,6 +25,13 @@ remos, Procne mane atque sic solent [non caelestibus](#iuvabat-limumque).
 Presserat [transitque inde](#diversa-iam-inter). Vel montes tum cohors Tityos
 lassavit nihil oracula exiguo ligatis.
 
+
+<details>
+  <summary>Answer</summary>
+  $2x^2$
+</details>
+
+
 ## Novis hunc qua erat caecisque
 
 Et Aeneae, nivosos magos, donata in quod cum [terris](#loco-aris), cumque solum,
