@@ -40,6 +40,7 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  # - jekyll-seo-tag
 
 exclude:
   - Gemfile
