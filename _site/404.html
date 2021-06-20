@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>404</title>
+  <title>Oops!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="/sample03_website/images/favicon-32x32.svg">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
@@ -84,8 +84,8 @@
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="service service-single">
-        <h1 class="title">404</h1>
-        <div class="content"><h1 id="page-not-found-">Page not found! :(</h1>
+        <h1 class="title">Oops!</h1>
+        <div class="content"><h1 id="error-404-page-not-found">Error 404: Page not found!</h1>
 
 </div>
       </div>
@@ -99,7 +99,27 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
+extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+TeX: {
+  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
+},
+  tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
+
+
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
   MathJax.Hub.Config({
     "HTML-CSS": {
       availableFonts: ["TeX"],
@@ -118,7 +138,7 @@
     imageFont: null,
     "AssistiveMML": { disabled: true }
   });
-</script>
+</script> -->
   </div>
   <div class="footer">
   <div class="container">

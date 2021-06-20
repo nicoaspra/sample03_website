@@ -1,4 +1,4 @@
-I"[<h1 id="functions">Functions</h1>
+I"b<h1 id="functions">Functions</h1>
 <ul>
   <li><a href="Introduction-to-Functions">Introduction to Functions</a>
     <ul>
@@ -76,11 +76,11 @@ Timeliness: Timeliness implies that financial information must be presented to t
   </tbody>
 </table>
 
-<p><strong>Example 1:</strong> in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen’s cash flow statement for the month of September looks like this:</p>
+<p><strong>Example 1:</strong> in the beginning of September, Ellen started out with {$ 20} in her bank account.  During that same month, Ellen borrowed $ 20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen’s cash flow statement for the month of September looks like this:</p>
 
 <ul>
   <li>Cash inflow: $20</li>
-  <li>Cash outflow:$7</li>
+  <li>Cash outflow: $7</li>
   <li>Opening balance: $5</li>
   <li>Closing balance: $20 – $7 + $5 = $18</li>
 </ul>
