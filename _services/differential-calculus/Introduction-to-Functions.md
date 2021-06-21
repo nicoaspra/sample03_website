@@ -1,6 +1,5 @@
 ---
 title: "Introduction to Functions"
-# author: Gealone
 featured: true
 weight: 2
 layout: content
@@ -13,10 +12,14 @@ A function is a special relationship between an input and an output, where the v
 
 ![Relate function as a fruit juicer]({{site.baseurl}}/images/content/DC-01-01.png)
 
-Relating this to an equation, for example $$y=2x+1$$. The variable $$x$$ is our apple (input), $$y$$ is the apple juice (output) and $$2x+1$$ is the juicer (function). The function tells us what to do to our input in order to end up with the resulting output.
+Relating this to an equation, for example $y=2x+1$. The variable $x$ is our apple (input), $y$ is the apple juice (output) and $2x+1$ is the juicer (function). The function tells us what to do to our input in order to end up with the resulting output.
 
 
-
+$$
+\begin{align*}
+    \int_1^5 2x^3 \,dx
+\end{align*}
+$$
 
 
 {% capture summary %}

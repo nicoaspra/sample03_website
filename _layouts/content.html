@@ -8,6 +8,7 @@ layout: default
       <div class="service service-single">
         <h1 class="title">{{page.title}}</h1>
           <p style="color:#d02f5d"></pstyle>Author | {{page.author}}</p>
+          <!-- <a href="{{ page.authorlink }}">{{ page.author }}</a> -->
           <!-- <br> -->
         <div class="content">{{content}}</div>
       </div>
@@ -19,48 +20,4 @@ layout: default
 
 
 
-
-
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    jax: ["input/TeX","input/MathML","output/SVG", "output/CommonHTML"],
-extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
-TeX: {
-  extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
-},
-  tex2jax: {
-      inlineMath: [ ['$','$'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full"></script>
-
-
-
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-      availableFonts: ["TeX"],
-    },
-    tex2jax: {
-      inlineMath: [['$','$'],["\\(","\\)"]]},
-      displayMath: [ ['$$','$$'], ['\[','\]'] ],
-    TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    showProcessingMessages: false,
-    messageStyle: "none",
-    imageFont: null,
-    "AssistiveMML": { disabled: true }
-  });
-</script> -->
+{% include mathjaxequations.html %}

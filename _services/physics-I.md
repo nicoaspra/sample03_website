@@ -24,7 +24,7 @@ layout: course
 		- Graphical Addition of Vectors
 			- Tip to Tail Method
 			- Parallelogram Method
-		- Adding Perpendicular Vectors
+		- Addition of Perpendicular Vectors 
 		- Components of Vectors
 - One-Dimensional Kinematics
 	- Distance and Displacement
