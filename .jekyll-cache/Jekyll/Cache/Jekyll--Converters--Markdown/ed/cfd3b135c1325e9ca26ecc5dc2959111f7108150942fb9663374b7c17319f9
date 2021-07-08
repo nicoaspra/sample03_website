@@ -12,21 +12,21 @@
   <tbody>
     <tr>
       <td>Length</td>
-      <td style="text-align: center">Meter (m)</td>
-      <td style="text-align: center">Centimeter (cm)</td>
-      <td style="text-align: center">Foot (ft)</td>
+      <td style="text-align: center">Meter [m]</td>
+      <td style="text-align: center">Centimeter [cm]</td>
+      <td style="text-align: center">Foot [ft]</td>
     </tr>
     <tr>
       <td>Mass</td>
-      <td style="text-align: center">Kilogram (kg)</td>
-      <td style="text-align: center">Gram (g)</td>
-      <td style="text-align: center">Slug (sl)</td>
+      <td style="text-align: center">Kilogram [kg]</td>
+      <td style="text-align: center">Gram [g]</td>
+      <td style="text-align: center">Slug [sl]</td>
     </tr>
     <tr>
       <td>Time</td>
-      <td style="text-align: center">Second (s)</td>
-      <td style="text-align: center">Second (s)</td>
-      <td style="text-align: center">Second (s)</td>
+      <td style="text-align: center">Second [s]</td>
+      <td style="text-align: center">Second [s]</td>
+      <td style="text-align: center">Second [s]</td>
     </tr>
   </tbody>
 </table>
