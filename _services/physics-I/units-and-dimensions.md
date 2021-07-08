@@ -26,7 +26,6 @@ Different systems still exist today since some countries have not yet adopted th
 
 
 
-## Related:
-- [Physics I](../../physics-I)
-- [Units and Dimensions](../introduction-to-physics)
+## Related Posts:
+-
 

@@ -9,8 +9,8 @@ layout: course
 # Contents
 - [Introduction to Physics](introduction-to-physics)
 - Units, Dimensions, and Uncertainties
-	- Units and Dimensions
-	- Metric System and SI Prefixes
+	- [Units and Dimensions](units-and-dimensions)
+	- [Metric System and SI Prefixes](metric-system-and-SI-prefixes)
 	- Conversion of Units
 - Scalars and Vectors
 	- Introduction to Scalars and Vectors
