@@ -7,7 +7,7 @@ layout: course
 ---
 
 # Contents
-- Introduction to Physics
+- [Introduction to Physics](introduction-to-physics)
 - Units, Dimensions, and Uncertainties
 	- Units and Dimensions
 	- Metric System and SI Prefixes

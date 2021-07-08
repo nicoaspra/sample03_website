@@ -73,7 +73,7 @@ body {
 }
 
 
-
+// Youtube Import
 .youtube-wrapper {
   position: relative;
   width: 100%;
@@ -114,4 +114,25 @@ summary {
 }
 details summary {
     color: $primary;
+}
+
+
+
+// Next and Previous Page
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
 }
