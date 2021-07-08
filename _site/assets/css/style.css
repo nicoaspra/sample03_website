@@ -1045,7 +1045,7 @@ summary { margin: 0px 0px 0px 0px; outline: none; cursor: pointer; }
 
 details summary { color: #d02f5d; }
 
-.PageNavigation { font-size: 14px; display: block; width: auto; overflow: hidden; }
+.PageNavigation { font-size: 14px; display: block; width: auto; overflow: hidden; margin: 10px 20px 0px 20px; }
 
 .PageNavigation a { display: block; width: 50%; float: left; margin: 1em 0; }
 
