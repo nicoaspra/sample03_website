@@ -11,7 +11,7 @@ nextcontenturl: ../metric-system-and-SI-prefixes
 
 
 
-In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms (kg), meters (m), and seconds (s), respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (Table 1.1).
+In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (refer to the table below).
 
 
 | Dimension |      SI       |       CGS       |     BE     |
@@ -21,7 +21,7 @@ In physics, the fundamental dimensions are mass, length, and time, which are mea
 | Time      |  Second (s)   |   Second (s)    | Second (s) |
 
 
-Different systems still exist today since some countries have not yet adopted the SI units. Moreover, some manufacturers still prefer different units since some have been around for a long time and the consumers have been used to them. One example is the power rating of an air conditioning system which is usually measured in horsepower, where in SI units, power is expressed in Watts. Also, some books, especially in engineering fields, are still presented in different systems.
+Different systems still exist today since some countries have not yet adopted the SI units. Moreover, some manufacturers still prefer different units since some have been around for a long time and the consumers have been used to them. One example is the power rating of an air conditioning system which is usually measured in horsepower, where in SI units, power is expressed in Watts [W]. Also, some books, especially in engineering fields, are still presented in different systems.
 
 
 

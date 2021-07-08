@@ -1,0 +1,39 @@
+I"N<p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (Table 1.1).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dimension</th>
+      <th style="text-align: center">SI</th>
+      <th style="text-align: center">CGS</th>
+      <th style="text-align: center">BE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Length</td>
+      <td style="text-align: center">Meter (m)</td>
+      <td style="text-align: center">Centimeter (cm)</td>
+      <td style="text-align: center">Foot (ft)</td>
+    </tr>
+    <tr>
+      <td>Mass</td>
+      <td style="text-align: center">Kilogram (kg)</td>
+      <td style="text-align: center">Gram (g)</td>
+      <td style="text-align: center">Slug (sl)</td>
+    </tr>
+    <tr>
+      <td>Time</td>
+      <td style="text-align: center">Second (s)</td>
+      <td style="text-align: center">Second (s)</td>
+      <td style="text-align: center">Second (s)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Different systems still exist today since some countries have not yet adopted the SI units. Moreover, some manufacturers still prefer different units since some have been around for a long time and the consumers have been used to them. One example is the power rating of an air conditioning system which is usually measured in horsepower, where in SI units, power is expressed in Watts [W]. Also, some books, especially in engineering fields, are still presented in different systems.</p>
+
+<h2 id="related-posts">Related Posts:</h2>
+<p>-</p>
+
+:ET
