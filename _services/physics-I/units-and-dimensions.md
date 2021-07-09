@@ -27,7 +27,7 @@ Different systems still exist today since some countries have not yet adopted th
 
 
 | Prefix | Symbol | Decimal Value                     | Factor    |
-| ------ | ------ | --------------------------------- | --------- |
+| :------: | :------: | --------------------------------- | --------- |
 |yotta		|	Y 	| $1,000,000,000,000,000,000,000,000$ | $10^{24}$ |
 |zeta		|	Z 	| 1,000,000,000,000,000,000,000 |  $10^{21}$ |
 |exa		|	E 	| 1,000,000,000,000,000,000 |  $10^{18}$ |	
@@ -50,6 +50,22 @@ Different systems still exist today since some countries have not yet adopted th
 |zepto		|	z 	|0.000000000000000000001 | $10^{-21}$ |
 |yocto		|	y 	|0.000000000000000000000001 | $10^{-24}$ |
 
+
+---
+**Example 1.** Express the mass of 375,000,000,000 g in: \
+    a. Gg \
+    b. Mg \
+    c. Tg
+
+$$
+\begin{align*}
+	\text{Mass}&=375,000,000,000 \text{ g} \\
+			&= 375 \times 10^9 \text{g}	&& \text{move the decimal point 9 places to the left} \\
+			&= 375 \un{Gg}	&& \text{replace $10^9$ with the symbol G}
+\end{align*}
+$$
+
+Hence, 375,000,000,000 g = 375 Gg
 
 ## Related Posts:
 -

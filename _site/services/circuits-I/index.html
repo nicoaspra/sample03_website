@@ -135,6 +135,7 @@
   MathJax.Hub.Config({
     "HTML-CSS": {
       availableFonts: ["TeX"],
+      styles: {".MathJax": {color: "#5C5A5A"}} 
     },
     tex2jax: {
       inlineMath: [['$','$'],["\\(","\\)"]]},
@@ -217,13 +218,23 @@
         degg: '{^{\\circ}}',
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
+        tagans: '{\\tag{ans.}}',
       }
     }
   });
 </script>
 
+<!-- 
+window.MathJax = {
+  loader: {load: ['[tex]/color']},
+  tex: {packages: {'[+]': ['color']}}
+};
 
-  
+
+$$
+  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
+$$ -->
   </div>
   <div class="footer">
   <div class="container">
