@@ -192,28 +192,6 @@ Answer
 
 
 
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-      availableFonts: ["TeX"],
-    },
-    tex2jax: {
-      inlineMath: [['$','$'],["\\(","\\)"]]},
-      displayMath: [ ['$$','$$'], ['\[','\]'] ],
-    TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
-      equationNumbers: {
-        autoNumber: "AMS"
-      }
-    },
-    showProcessingMessages: false,
-    messageStyle: "none",
-    imageFont: null,
-    "AssistiveMML": { disabled: true }
-  });
-</script> -->
-
-
 
 
 <!-- <div style="display:none">
@@ -251,13 +229,15 @@ Answer
         degF: '{^{\\circ}\\mathrm{F}}',
         tagans: '{\\tag{ans.}}',
         tcA: ['\\color{colorA}{#1}',1],
+        tcB: ['\\color{colorB}{#1}',1],
         textal: ['\\tcA{\\text{#1}}',1],
+        example: ['\\tcA{\\text{Example #1:}}',1],
+        For: ['\\tcB{\\text{For (#1):}}',1],
+        solution:  '\\tcB{\\textit{Solution:}}',
       }
     }
   });
 </script>
-
-
 
 
 
@@ -275,9 +255,17 @@ Answer
 
 
 
-<div class="PageNavigation">
+<!-- <div class="PageNavigation">
     <a class="prev" href="">&laquo; </a> <a class="next" href=""> &raquo;</a>
+</div> -->
+
+
+
+<div class="PageNavigation">
+  <a class="prev" href="">&laquo; Previous</a> <a class="next" href="">Next &raquo;</a>
 </div>
+
+
   </div>
   <div class="footer">
   <div class="container">

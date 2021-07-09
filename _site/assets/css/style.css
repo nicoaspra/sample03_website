@@ -41,7 +41,7 @@ sup { top: -.5em; }
 
 a { color: #d02f5d; text-decoration: none; background-color: transparent; }
 
-a:hover { color: #d9597d; text-decoration: underline; }
+a:hover { color: #e3829e; text-decoration: underline; }
 
 a:not([href]) { color: inherit; text-decoration: none; }
 

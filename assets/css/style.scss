@@ -14,7 +14,7 @@ $steel: #5C5A5A;
 // Links
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
+$link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
@@ -146,3 +146,5 @@ table {
   width: 100%;
   color: $steel;
 }
+
+
