@@ -88,7 +88,18 @@
           <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p>
           <!-- <a href="">Engr. Nico O. Aspra, ME, RMP</a> -->
           <!-- <br> -->
-        <div class="content"><h1 id="asd">asd</h1>
+        <div class="content">
+          $$
+  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
+  \definecolor{energy}{RGB}{114,0,172}
+  \definecolor{freq}{RGB}{45,177,93}
+  \definecolor{spin}{RGB}{251,0,29}
+  \definecolor{signal}{RGB}{18,110,213}
+  \definecolor{circle}{RGB}{217,86,16}
+  \definecolor{average}{RGB}{203,23,206}
+$$
+          <h1 id="asd">asd</h1>
 
 <p>Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
 ignisque quaerit dederat gemino Aethiopesque <a href="#inque-ne-collocat">caelo</a>
@@ -98,7 +109,8 @@ laevo. Terras seu favoni tectas movit hunc motuque damno tutoque quattuor. Leto
 duo arbore, tua paelice regnis scopulis ut Lachne Menoetae nigra repugnat
 Coroneus est qui viscere barbariam <strong>seris</strong>. Vim in quamquam colla ventura
 remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus</a>.</p>
-</div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -202,22 +214,18 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
         tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        textal: ['\\tcA{\\text{#1}}',1],
       }
     }
   });
 </script>
 
-<!-- 
-window.MathJax = {
-  loader: {load: ['[tex]/color']},
-  tex: {packages: {'[+]': ['color']}}
-};
 
 
-$$
-  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
-  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
-$$ -->
+
+
+
 
 
 <!-- <div class="PageNavigation">

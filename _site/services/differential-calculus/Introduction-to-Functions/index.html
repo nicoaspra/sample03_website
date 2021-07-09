@@ -88,7 +88,18 @@
           <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p>
           <!-- <a href="">Engr. Nico O. Aspra, ME, RMP</a> -->
           <!-- <br> -->
-        <div class="content"><h1 id="objective">Objective</h1>
+        <div class="content">
+          $$
+  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
+  \definecolor{energy}{RGB}{114,0,172}
+  \definecolor{freq}{RGB}{45,177,93}
+  \definecolor{spin}{RGB}{251,0,29}
+  \definecolor{signal}{RGB}{18,110,213}
+  \definecolor{circle}{RGB}{217,86,16}
+  \definecolor{average}{RGB}{203,23,206}
+$$
+          <h1 id="objective">Objective</h1>
 
 <p>A function is a special relationship between an input and an output, where the value of the output depends on the value of the input, given that <strong>for every input there can only be one output</strong>. Imagine the function as a juicer, if you use it on an apple you cannot expect a different type of juice other than an apple juice (figure 1).</p>
 
@@ -134,7 +145,8 @@ Answer
   </div>
 
 <p><!-- https://www.chunkhang.com/blog/responsive-youtube-video-with-jekyll --></p>
-</div>
+
+        </div>
       </div>
     </div>
   </div>
@@ -238,22 +250,18 @@ Answer
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
         tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        textal: ['\\tcA{\\text{#1}}',1],
       }
     }
   });
 </script>
 
-<!-- 
-window.MathJax = {
-  loader: {load: ['[tex]/color']},
-  tex: {packages: {'[+]': ['color']}}
-};
 
 
-$$
-  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
-  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
-$$ -->
+
+
+
 
 
 <!-- <div class="PageNavigation">

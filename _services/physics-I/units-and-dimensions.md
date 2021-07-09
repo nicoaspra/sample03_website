@@ -57,16 +57,33 @@ Different systems still exist today since some countries have not yet adopted th
     b. Mg \
     c. Tg
 
+**Solution:** \
+*For (a):*
 $$
 \begin{align*}
-	\text{Mass}&=375,000,000,000 \text{ g} \\
-			&= 375 \times 10^9 \text{g}	&& \text{move the decimal point 9 places to the left} \\
-			&= 375 \un{Gg}	&& \text{replace $10^9$ with the symbol G}
+	\text{Mass}&=375,000,000,000 \un{g} \\
+			&= 375\x 10^9 \un{g}	&& \tcA{\text{move the decimal point 9 places to the left}} \\
+			&= 375\un{Gg}	&& \textal{replace $10^9$ with the symbol G}
 \end{align*}
 $$
 
 Hence, 375,000,000,000 g = 375 Gg
 
+
+$$
+\colorbox{colorA}{
+    $
+    \color{energy} X_{\color{freq} k} \color{black} =
+    \color{average} \frac{1}{N} \sum_{n=0}^{N-1}
+    \color{signal}x_n \color{spin}
+    e^{\mathrm{i} \color{circle} 2\pi \color{freq}k
+    \color{average} \frac{n}{N}}
+    $
+}
+$$
+
+
+
 ## Related Posts:
--
+- 
 

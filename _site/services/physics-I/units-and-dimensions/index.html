@@ -88,7 +88,18 @@
           <p style="color:#d02f5d"></pstyle>Author | Engr. Nico O. Aspra, ME, RMP</p>
           <!-- <a href="">Engr. Nico O. Aspra, ME, RMP</a> -->
           <!-- <br> -->
-        <div class="content"><p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (refer to the table below).</p>
+        <div class="content">
+          $$
+  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
+  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
+  \definecolor{energy}{RGB}{114,0,172}
+  \definecolor{freq}{RGB}{45,177,93}
+  \definecolor{spin}{RGB}{251,0,29}
+  \definecolor{signal}{RGB}{18,110,213}
+  \definecolor{circle}{RGB}{217,86,16}
+  \definecolor{average}{RGB}{203,23,206}
+$$
+          <p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (refer to the table below).</p>
 
 <table>
   <thead>
@@ -268,18 +279,33 @@
     b. Mg <br />
     c. Tg</p>
 
-\[\begin{align*}
-	\text{Mass}&amp;=375,000,000,000 \text{ g} \\
-			&amp;= 375 \times 10^9 \text{g}	&amp;&amp; \text{move the decimal point 9 places to the left} \\
-			&amp;= 375 \un{Gg}	&amp;&amp; \text{replace $10^9$ with the symbol G}
-\end{align*}\]
+<p><strong>Solution:</strong> <br />
+<em>For (a):</em>
+\(\begin{align*}
+	\text{Mass}&amp;=375,000,000,000 \un{g} \\
+			&amp;= 375\x 10^9 \un{g}	&amp;&amp; \tcA{\text{move the decimal point 9 places to the left}} \\
+			&amp;= 375\un{Gg}	&amp;&amp; \textal{replace $10^9$ with the symbol G}
+\end{align*}\)</p>
 
 <p>Hence, 375,000,000,000 g = 375 Gg</p>
 
-<h2 id="related-posts">Related Posts:</h2>
-<p>-</p>
+\[\colorbox{colorA}{
+    $
+    \color{energy} X_{\color{freq} k} \color{black} =
+    \color{average} \frac{1}{N} \sum_{n=0}^{N-1}
+    \color{signal}x_n \color{spin}
+    e^{\mathrm{i} \color{circle} 2\pi \color{freq}k
+    \color{average} \frac{n}{N}}
+    $
+}\]
 
-</div>
+<h2 id="related-posts">Related Posts:</h2>
+<ul>
+  <li></li>
+</ul>
+
+
+        </div>
       </div>
     </div>
   </div>
@@ -383,22 +409,18 @@
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
         tagans: '{\\tag{ans.}}',
+        tcA: ['\\color{colorA}{#1}',1],
+        textal: ['\\tcA{\\text{#1}}',1],
       }
     }
   });
 </script>
 
-<!-- 
-window.MathJax = {
-  loader: {load: ['[tex]/color']},
-  tex: {packages: {'[+]': ['color']}}
-};
 
 
-$$
-  \definecolor{colorA}{rgb}{0.25, 0.51, 0.43}		%viridian
-  \definecolor{colorB}{rgb}{0.89, 0.04, 0.36}		%raspberry
-$$ -->
+
+
+
 
 
 <!-- <div class="PageNavigation">
