@@ -7,7 +7,7 @@ layout: course
 ---
 
 # Contents
-- Introduction to DC/AC Sources, Power, & Energy
+- [Introduction to DC/AC Sources, Power, & Energy](1.1-introduction)
 - Battery
 - Resistance
 - Ohm's Law
