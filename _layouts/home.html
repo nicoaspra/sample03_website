@@ -33,7 +33,7 @@ bodyClass: page-home
             <h2 class="service-title">
               <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
             </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <!-- <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p> -->
           </div>
         </div>
       </div>
@@ -41,7 +41,8 @@ bodyClass: page-home
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Subjects</a>
+        <br>
+        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Courses</a>
       </div>
     </div>
   </div>

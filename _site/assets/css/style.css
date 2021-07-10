@@ -1039,7 +1039,7 @@ body { font-size: 18px; line-height: 1.2; font-family: TeX; }
 
 details { background: rgba(208, 47, 93, 0.1); border-radius: 6px; padding: 2px 2px 2px 10px; }
 
-details[open] { background: rgba(208, 47, 93, 0.1); padding: 2px 2px 0px 10px; margin: 0px 0px 0px 0px; }
+details[open] { background: rgba(208, 47, 93, 0.1); padding: 2px 2px 2px 10px; margin: 0px 0px 0px 0px; }
 
 summary { margin: 0px 0px 0px 0px; outline: none; cursor: pointer; }
 

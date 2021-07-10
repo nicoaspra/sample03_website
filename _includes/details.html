@@ -1,8 +1,8 @@
 <details>
-    <summary>{{ summary | markdownify | remove: '<p>' | remove: '</p>' }}
+    <summary>{{ include.summary | markdownify | remove: '<p>' | remove: '</p>' }}
     </summary>
     <br>
-    {{ details | markdownify }}
+    {{ include.details | markdownify }}
 </details>
 
 

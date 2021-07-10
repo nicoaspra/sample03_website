@@ -28,21 +28,20 @@ $$
 $$
 
 
-{% capture summary %}
-Answer
-{% endcapture %}
-{% capture details %}
-Hello
-{% endcapture %}
-{% include details.html %}
-
-
-asdasd
 
 
 
 
+{% include answer.html 
+    details= "$2x^2+5x-1$"
+%} 
+
+
+<br>
 
 
 
-{% include youtube.html id='cRsqjy-qqag' %}
+
+{% include youtube.html 
+    id='cRsqjy-qqag' 
+%}
