@@ -98,6 +98,7 @@
   \definecolor{signal}{RGB}{18,110,213}
   \definecolor{circle}{RGB}{217,86,16}
   \definecolor{average}{RGB}{203,23,206}
+  \require{cancel}
 $$
           <h1 id="introduction">Introduction</h1>
 
@@ -167,7 +168,7 @@ asdasdasdas</p>
       inlineMath: [['$','$'],["\\(","\\)"]]},
       displayMath: [ ['$$','$$'], ['\[','\]'] ],
     TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
       equationNumbers: {
         autoNumber: "AMS"
       }
@@ -204,6 +205,8 @@ asdasdasdas</p>
         CC: '{\\bf R}',
         un: ['\\;\\mathrm{#1}',1],
         x:  '{\\times}',
+        ohm: '{\\,\\Omega}',
+
         br: ['\\left(#1\\right)',1],
         brk: ['\\left[#1\\right]',1],
         bbrk: ['\\Bigl[#1\\Bigr]',1],
@@ -211,6 +214,7 @@ asdasdasdas</p>
         bbbrk: ['\\Biggl[#1\\Biggr]',1],
         brv: ['\\left|#1\\right|',1],
         brc: ['\\left\\{#1\\right\\}',1],
+
         Dy: '{\\Delta y}',
         Dx: '{\\Delta x}',
         D: '{\\Delta}',
@@ -219,6 +223,11 @@ asdasdasdas</p>
         ddy: '{\\frac{d}{dy}}',
         ddw: '{\\frac{d}{dw}}',
         ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
         degg: '{^{\\circ}}',
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
@@ -257,7 +266,8 @@ asdasdasdas</p>
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../../physics-I">&laquo; Previous</a> <a class="next" href="../1.2-metric-system-and-SI-prefixes">Next &raquo;</a>
+  <a class="prev" href="../../physics-I">&laquo; Previous</a> 
+  <a class="next" href="../1.2-metric-system-and-SI-prefixes">Next &raquo;</a>
 </div>
 
 

@@ -98,6 +98,7 @@
   \definecolor{signal}{RGB}{18,110,213}
   \definecolor{circle}{RGB}{217,86,16}
   \definecolor{average}{RGB}{203,23,206}
+  \require{cancel}
 $$
           <h1 id="asd">asd</h1>
 
@@ -136,7 +137,7 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
       inlineMath: [['$','$'],["\\(","\\)"]]},
       displayMath: [ ['$$','$$'], ['\[','\]'] ],
     TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
       equationNumbers: {
         autoNumber: "AMS"
       }
@@ -173,6 +174,8 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
         CC: '{\\bf R}',
         un: ['\\;\\mathrm{#1}',1],
         x:  '{\\times}',
+        ohm: '{\\,\\Omega}',
+
         br: ['\\left(#1\\right)',1],
         brk: ['\\left[#1\\right]',1],
         bbrk: ['\\Bigl[#1\\Bigr]',1],
@@ -180,6 +183,7 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
         bbbrk: ['\\Biggl[#1\\Biggr]',1],
         brv: ['\\left|#1\\right|',1],
         brc: ['\\left\\{#1\\right\\}',1],
+
         Dy: '{\\Delta y}',
         Dx: '{\\Delta x}',
         D: '{\\Delta}',
@@ -188,6 +192,11 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
         ddy: '{\\frac{d}{dy}}',
         ddw: '{\\frac{d}{dw}}',
         ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
         degg: '{^{\\circ}}',
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
@@ -226,7 +235,8 @@ remos, Procne mane atque sic solent <a href="#iuvabat-limumque">non caelestibus<
 
 
 <div class="PageNavigation">
-  <a class="prev" href="">&laquo; Previous</a> <a class="next" href="">Next &raquo;</a>
+  <a class="prev" href="">&laquo; Previous</a> 
+  <a class="next" href="">Next &raquo;</a>
 </div>
 
 

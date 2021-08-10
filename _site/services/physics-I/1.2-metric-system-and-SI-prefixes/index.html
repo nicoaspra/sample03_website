@@ -98,6 +98,7 @@
   \definecolor{signal}{RGB}{18,110,213}
   \definecolor{circle}{RGB}{217,86,16}
   \definecolor{average}{RGB}{203,23,206}
+  \require{cancel}
 $$
           <h1 id="metric-system">Metric System</h1>
 <p>In physics, the fundamental dimensions are mass, length, and time, which are measured in kilograms [kg], meters [m], and seconds [s], respectively. These units are known as the Système Internationale (SI) units, or International System, and they are what we will be utilizing for the most of this course. However, the Centimeter–Gram–Second (CGS) System and the British Engineering (BE) System are two alternative systems of measurement that are still in use (refer to the table below).</p>
@@ -371,7 +372,7 @@ $$ -->
       inlineMath: [['$','$'],["\\(","\\)"]]},
       displayMath: [ ['$$','$$'], ['\[','\]'] ],
     TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
       equationNumbers: {
         autoNumber: "AMS"
       }
@@ -408,6 +409,8 @@ $$ -->
         CC: '{\\bf R}',
         un: ['\\;\\mathrm{#1}',1],
         x:  '{\\times}',
+        ohm: '{\\,\\Omega}',
+
         br: ['\\left(#1\\right)',1],
         brk: ['\\left[#1\\right]',1],
         bbrk: ['\\Bigl[#1\\Bigr]',1],
@@ -415,6 +418,7 @@ $$ -->
         bbbrk: ['\\Biggl[#1\\Biggr]',1],
         brv: ['\\left|#1\\right|',1],
         brc: ['\\left\\{#1\\right\\}',1],
+
         Dy: '{\\Delta y}',
         Dx: '{\\Delta x}',
         D: '{\\Delta}',
@@ -423,6 +427,11 @@ $$ -->
         ddy: '{\\frac{d}{dy}}',
         ddw: '{\\frac{d}{dw}}',
         ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
         degg: '{^{\\circ}}',
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
@@ -461,7 +470,8 @@ $$ -->
 
 
 <div class="PageNavigation">
-  <a class="prev" href="../1.1-introduction-to-physics">&laquo; Previous</a> <a class="next" href="../1.3-conversion-of-units">Next &raquo;</a>
+  <a class="prev" href="../1.1-introduction-to-physics">&laquo; Previous</a> 
+  <a class="next" href="../1.3-conversion-of-units">Next &raquo;</a>
 </div>
 
 

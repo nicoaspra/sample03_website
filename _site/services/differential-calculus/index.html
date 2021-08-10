@@ -234,7 +234,7 @@ Timeliness: Timeliness implies that financial information must be presented to t
       inlineMath: [['$','$'],["\\(","\\)"]]},
       displayMath: [ ['$$','$$'], ['\[','\]'] ],
     TeX: {
-      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+      extensions: ["AMSmath.js", "AMSsymbols.js", "color.js", "autoload-all.js"],
       equationNumbers: {
         autoNumber: "AMS"
       }
@@ -271,6 +271,8 @@ Timeliness: Timeliness implies that financial information must be presented to t
         CC: '{\\bf R}',
         un: ['\\;\\mathrm{#1}',1],
         x:  '{\\times}',
+        ohm: '{\\,\\Omega}',
+
         br: ['\\left(#1\\right)',1],
         brk: ['\\left[#1\\right]',1],
         bbrk: ['\\Bigl[#1\\Bigr]',1],
@@ -278,6 +280,7 @@ Timeliness: Timeliness implies that financial information must be presented to t
         bbbrk: ['\\Biggl[#1\\Biggr]',1],
         brv: ['\\left|#1\\right|',1],
         brc: ['\\left\\{#1\\right\\}',1],
+
         Dy: '{\\Delta y}',
         Dx: '{\\Delta x}',
         D: '{\\Delta}',
@@ -286,6 +289,11 @@ Timeliness: Timeliness implies that financial information must be presented to t
         ddy: '{\\frac{d}{dy}}',
         ddw: '{\\frac{d}{dw}}',
         ddt: '{\\frac{d}{dt}}',
+        pd: ['\\frac{\\partial#1}{\\partial#2}',2],
+        Ncancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\un{#4}}',4],
+        Dcancel: ['\\frac{#1 \\un{#2}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        NDcancel: ['\\frac{#1 \\cancel{\\mathrm{#2}}}{#3 \\cancel{\\mathrm{#4}}}',4],
+        
         degg: '{^{\\circ}}',
         degC: '{^{\\circ}\\mathrm{C}}',
         degF: '{^{\\circ}\\mathrm{F}}',
